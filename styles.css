@@ -1,0 +1,230 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .title {
+    display: none;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  main {
+    font-family: Arial, sans-serif;
+    min-width: 310px;
+    max-width: 1850px;
+  }
+  
+  section article {
+    margin: 10px;
+    text-align: justify;
+    line-height: 1.5em;
+  }
+  
+  section h2 {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid black;
+  }
+  
+  .navbar_container {
+    position: fixed;
+    width: 275px;
+    padding: 20px 0 10px;
+    overflow: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  /*.introduction_image {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }*/
+  
+  /*.case_image {
+    float: left;
+    margin-right: 20px;
+  }*/
+  
+  /*.monitor_image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }*/
+  
+  /*.mouse_image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }*/
+  
+  /*.keyboard_image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }*/
+  
+  /*.speakers_image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }*/
+  
+  /*.motherboard_image{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }*/
+  
+  /*.cpu_image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }*/
+  
+  /*.ram_image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }*/
+  
+  /*.graphics_card_image{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }*/
+  
+  /*.sound_card_image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }*/
+  
+  /*.power_supply_image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    width: 230px;
+  }*/
+  
+  .computer_data_storage_image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin-left: -40px;
+    font-size: 1.25rem;
+    color: inherit;
+  }
+  
+  nav a:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+  }
+  
+  .main-section a {
+    text-decoration: none;
+    color: #3366CC;
+  }
+  
+  .main-section a:visited {
+    color: #795CB2;
+  }
+  
+  .main-section a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .main-section a:active {
+    color: #0645AD;
+  }
+  
+  .text_container {
+    margin-left: 300px;
+    display: block;
+    padding: 50px 20px;;
+  }
+  
+  @media (max-height: 700px) {
+    nav header{
+      position: fixed;
+      background-color: white;
+      margin-top: -70px;
+      width: 255px;
+    }
+    
+    .navbar_container {
+      overflow: auto;
+      height: 550px;
+      padding-top: 50px;
+   }
+  }
+  
+  @media (max-width: 800px) {
+    .navbar_container {
+      position: absolute;
+      top: 10px;
+      left: 40px;
+      bottom: 0;
+      right: 0;
+      height: 260px;
+      display: block;
+      width: 90%;
+      margin: 60px auto 20px auto;
+      padding-top: 0;
+    }
+  
+    .title {
+      display: block;
+      background-color: white;
+      width: 100%;
+      margin: 0;
+      padding: 1px;
+      margin-left: 30px;
+      margin-top: 0px;
+      font-size: 0.85em;
+    }
+  
+    nav header {
+      display: none;
+    }
+  
+    #navbar {
+      max-width: 625px
+    }
+  
+    .text_container {
+      margin: 220px 10px 10px 10px;
+    }
+  
+    nav a:hover {
+      border-radius: 30px;
+    }
+  }
+  
+  /*@media (max-width: 410px) {
+    .introduction_image{
+      width: 230px;
+    }
+  }*/
+  
